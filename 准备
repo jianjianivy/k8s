@@ -24,6 +24,12 @@ EOF
   
 # sysctl --system  
 
+修改host
+# cat <<EOF >>/etc/hosts  
+10.0.40.222 master  
+10.0.40.193 node  
+EOF  
+
 参考：
 http://blog.51yip.com/cloud/2399.html
 
